@@ -30,6 +30,6 @@ if __name__ == '__main__':
         ],
 
         entry_points = {
-            'console_scripts': ['mutinf=mutinf.dihedral_mutent:__main__'],
+            'console_scripts': ['mutinf=mutinf.dihedral_mutent:main'],
         }
     )
