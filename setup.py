@@ -23,10 +23,11 @@ if __name__ == '__main__':
         packages=setuptools.find_packages(include=['mutinf*'], exclude=[]),
 
         install_requires=[
-            'weave>=0.17',
-            'scipy>=1.2.1',
-            'biopython>=1.73',
-            'mdanalysis>=0.19.2'
+            'weave==0.17',
+            'scipy==1.2.1',
+            'biopython==1.73',
+            'mdanalysis==0.19.2',
+            'pymbar==3.0.3'
         ],
 
         entry_points = {
