@@ -26,3 +26,13 @@ Or directly install it from git
 ```
 pip install git+https://github.com/stefdoerr/mutinf
 ```
+
+Running
+-------
+This will install a program called `mutinf` in your PATH.
+
+Check the help with:
+
+```
+mutinf -h
+```
