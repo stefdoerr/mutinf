@@ -29,10 +29,10 @@ pip install git+https://github.com/stefdoerr/mutinf
 
 Running
 -------
-This will install a program called `mutinf` in your PATH.
+This will install a program called `dihedral_mutent` in your PATH.
 
 Check the help with:
 
 ```
-mutinf -h
+dihedral_mutent -h
 ```
