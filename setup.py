@@ -23,6 +23,8 @@ if __name__ == '__main__':
         packages=setuptools.find_packages(include=['mutinf*'], exclude=[]),
 
         install_requires=[
+            'six==1.12.0',
+            'numpy==1.16.4',
             'weave==0.17',
             'scipy==1.2.1',
             'biopython==1.73',
