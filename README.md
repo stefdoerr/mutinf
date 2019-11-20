@@ -16,7 +16,8 @@ Download and install miniconda from: https://docs.conda.io/en/latest/miniconda.h
 
 ```
 git clone https://github.com/stefdoerr/mutinf
-conda create -n mutinf python=2.7
+conda create -n mutinf python=2.7 pip
+conda activate mutinf
 cd mutinf
 pip install .
 ```
